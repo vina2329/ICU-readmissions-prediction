@@ -11,7 +11,7 @@ This project aims to predict readmissions that occur 1-30 days after a Congestiv
 
 1. Defining our target cohort
 - PMAP_Final_Cohort: This file first identifies our targeted cohort (CHF-related ICU hospital stays), then generates labels for each hospital stay.
-![image](https://ibb.co/yQjh7Dw)
+![image](https://www.linkpicture.com/q/PMAP-final-cohort.png)
 
 2. Feature Engineering
 - PMAP_Comorbidity: This file reads in diagnosis information (ICD-10 codes) from hospital billing and diagnosis data, performs data cleaning procedures, then finally generates features including Charlson and Elixhauser Comorbidity Indexes, and Elixhauser scores.
