@@ -10,7 +10,7 @@ This project aims to predict readmissions that occur 1-30 days after a Congestiv
 ### Code (Python Notebooks)
 
 **1. Defining our target cohort**
-  - PMAP_Final_Cohort: This file first identifies our targeted cohort (CHF-related ICU hospital stays), then generates labels for each hospital stay. The below diagram shows a summary of how the cohort is extracted.
+  - PMAP_Final_Cohort: This file first identifies our targeted cohort (CHF-related ICU hospital stays), then generates labels for each hospital stay. The below diagram shows a summary of how the final cohort is extracted out of each hospital stay in our dataset.
 
 ![image](https://www.linkpicture.com/q/PMAP-final-cohort.png)
 
