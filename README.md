@@ -6,7 +6,7 @@ This repository contains code files used to predict ICU readmissions from a larg
 
 This project aims to predict readmissions that occur 1-30 days after a Congestive Heart Failure (CHF) - related ICU hospital stay.
 
-## Contents of the Project
+## Project Contents
 ### Code (Python Notebooks)
 
 1. Defining our target cohort
