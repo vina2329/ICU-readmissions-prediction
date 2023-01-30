@@ -18,3 +18,5 @@ This project aims to predict readmissions that occur 1-30 days after a Congestiv
   - PMAP_Comorbidity: This file reads in diagnosis information (ICD-10 codes) from hospital billing and diagnosis data, performs data cleaning procedures, then finally generates features including Charlson and Elixhauser Comorbidity Indexes, and Elixhauser scores.
   - PMAP_Demographic: This file reads in patient demographic information, then generates demographic features including age, gender, and race.
   - PMAP_Labs:
+  - PMAP_Meds:This file reads in medication administrations for every hospital stay, then generates medication features including med classes administered for each of our target hospital stay and the average dosages/patient weight/min given.
+    - PMAP_get_pat_weights: This file pulls the weights of patients from patient flowsheets to calculate average dosages/patient weight/min given.
